@@ -1,0 +1,246 @@
+{
+  "bounds": [
+    -74.5422,
+    40.3047,
+    -73.1744,
+    41.1745
+  ],
+  "center": [
+    -73.973,
+    40.7374,
+    11
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 16,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "roads.mss",
+    "labels.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        179.99999990000003,
+        83.66933320000001
+      ],
+      "id": "land",
+      "class": "",
+      "Datasource": {
+        "file": "http://gis-data.s3.amazonaws.com/osm-joto/land_polygons.zip"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "land"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -74.50018144520796,
+        40.34515597461473,
+        -73.22711200731477,
+        41.096904646547074
+      ],
+      "id": "landuse_gen1",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-landusages_gen1.shp",
+        "id": "landuse_gen1",
+        "project": "nyc-osm",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landuse_gen1"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -74.50018144520796,
+        40.34515597461473,
+        -73.22711200731477,
+        41.096904646547074
+      ],
+      "id": "landuse",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-landusages.shp",
+        "id": "landuse",
+        "project": "nyc-osm",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landuse"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -74.50018144520796,
+        40.34515597461473,
+        -73.22711200731477,
+        41.096904646547074
+      ],
+      "id": "waterareas",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-waterareas.shp",
+        "id": "waterareas",
+        "project": "nyc-osm",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "waterareas"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -74.25549540853903,
+        40.498429316361374,
+        -73.70006247097601,
+        40.91491711596884
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "buildings",
+        "key_field": "",
+        "geometry_field": "the_geom",
+        "extent_cache": "auto",
+        "extent": "-8266083.93748083,4938639.23853709,-8204253.4257015,4999800.0463289",
+        "host": "localhost",
+        "dbname": "nyc",
+        "user": "postgres"
+      },
+      "id": "buildings",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "buildings"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -74.50099608237738,
+        40.34500199905342,
+        -73.22606401796098,
+        41.096981424780125
+      ],
+      "id": "bridge",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-roads.shp",
+        "id": "bridge",
+        "project": "nyc-osm",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bridge"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -74.50088351341778,
+        40.34500199905342,
+        -73.22711200731477,
+        41.096981424780125
+      ],
+      "id": "roads_gen1",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-roads_gen1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads_gen1"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -74.50099608237738,
+        40.34500199905342,
+        -73.22606401796098,
+        41.096981424780125
+      ],
+      "id": "roads",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-roads.shp",
+        "id": "roads",
+        "project": "nyc-osm",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -74.50099608237738,
+        40.34500199905342,
+        -73.22606401796098,
+        41.096981424780125
+      ],
+      "id": "road_labels",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-roads.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "road_labels"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -74.50099608237738,
+        40.34500199905342,
+        -73.22606401796098,
+        41.096981424780125
+      ],
+      "id": "places",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-places.shp",
+        "id": "places",
+        "project": "nyc-osm",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "places"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "",
+  "description": "",
+  "attribution": ""
+}
