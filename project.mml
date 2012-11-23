@@ -60,7 +60,7 @@
       "id": "landuse_gen1",
       "class": "",
       "Datasource": {
-        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-landusages_gen1.shp",
+        "file": "data/new-york.osm-landusages_gen1.shp",
         "id": "landuse_gen1",
         "project": "nyc-osm",
         "srs": ""
@@ -81,7 +81,7 @@
       "id": "landuse",
       "class": "",
       "Datasource": {
-        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-landusages.shp",
+        "file": "data/new-york.osm-landusages.shp",
         "id": "landuse",
         "project": "nyc-osm",
         "srs": ""
@@ -102,7 +102,7 @@
       "id": "waterareas",
       "class": "",
       "Datasource": {
-        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-waterareas.shp",
+        "file": "data/new-york.osm-waterareas.shp",
         "id": "waterareas",
         "project": "nyc-osm",
         "srs": ""
@@ -149,7 +149,7 @@
       "id": "bridge",
       "class": "",
       "Datasource": {
-        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-roads.shp",
+        "file": "data/new-york.osm-roads.shp",
         "id": "bridge",
         "project": "nyc-osm",
         "srs": ""
@@ -170,7 +170,7 @@
       "id": "roads_gen1",
       "class": "",
       "Datasource": {
-        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-roads_gen1.shp"
+        "file": "data/new-york.osm-roads_gen1.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -188,7 +188,7 @@
       "id": "roads",
       "class": "",
       "Datasource": {
-        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-roads.shp",
+        "file": "data/new-york.osm-roads.shp",
         "id": "roads",
         "project": "nyc-osm",
         "srs": ""
@@ -209,7 +209,7 @@
       "id": "road_labels",
       "class": "",
       "Datasource": {
-        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-roads.shp"
+        "file": "data/new-york.osm-roads.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -227,7 +227,7 @@
       "id": "places",
       "class": "",
       "Datasource": {
-        "file": "/Users/ianvilleda/Downloads/new-york.imposm-shapefiles/new-york.osm-places.shp",
+        "file": "data/new-york.osm-places.shp",
         "id": "places",
         "project": "nyc-osm",
         "srs": ""
